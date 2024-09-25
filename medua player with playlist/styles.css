@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(nawwaf.jpg);
+    background-size: cover;
+    background-color: #f30000;
+    
+}
+.media-player {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ff0000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.controls {
+    margin: 10px 0;
+}
+button {
+    margin: 0 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
